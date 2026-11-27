@@ -1,0 +1,28 @@
+{
+  "name": "studyhub",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "@netlify/database": "^2.0.4",
+    "@netlify/identity": "^2.0.1",
+    "@netlify/server": "^0.1.6",
+    "drizzle-orm": "^1.0.0-beta.22",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.11",
+    "@types/react": "^19.3.3",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "drizzle-kit": "^1.0.0-beta.22",
+    "typescript": "^7.0.2",
+    "vite": "^8.4.0"
+  }
+}
